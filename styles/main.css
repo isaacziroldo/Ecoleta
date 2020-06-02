@@ -128,19 +128,33 @@ h1, h2, h3, h4, h5, h6 {
         background-position-x: 70vw;
     }
 
+
+
     #page-home .content{
         align-items: center;
         text-align: center;
     }
 
+    #page-home main h1 {
+        font-size: 40px;
+        
+    }
+
     #page-home .content header a {
         position: absolute;
-        bottom: 48px;
+        bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
     }
 
+
     #page-home main {
         align-items: center;
+    }
+
+    #page-home main p {
+        font-size: 20px;
+        line-height: 38px;
+        margin-top: 24px;
     }
 }
