@@ -57,15 +57,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-home header a span {
     display: flex;
-    margin-right: 10px;
-    background-image: url('../assets/log-in.svg');
-    width: 20px;
-    height: 20px;
+    margin-right: 5px;
+    background: url('../assets/log-in.svg') no-repeat;
+    width: 30px;
+    height: 30px;
 }
 
 #page-home main {
     max-width: 560px;
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
